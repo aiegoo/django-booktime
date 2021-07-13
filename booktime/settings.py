@@ -81,7 +81,7 @@ DATABASES = {
         'USER': 'booktime',
         'PASSWORD': 'tony0504',
         'HOST': '210.179.54.69',
-        'PORT': '5432',
+        'PORT': '8000',
     }
 }
 
@@ -108,9 +108,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'kn-Ko'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
