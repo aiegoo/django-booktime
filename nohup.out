@@ -20,3 +20,27 @@ July 12, 2021 - 15:24:12
 Django version 3.2.5, using settings 'booktime.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
+usage: manage.py runserver [-h] [--ipv6] [--nothreading] [--noreload]
+                           [--nostatic] [--insecure] [--version]
+                           [-v {0,1,2,3}] [--settings SETTINGS]
+                           [--pythonpath PYTHONPATH] [--traceback]
+                           [--no-color]
+                           [addrport]
+manage.py runserver: error: argument --ipv6/-6: ignored explicit argument '210.179.54.69'
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 13, 2021 - 02:47:07
+Django version 2.1.15, using settings 'booktime.settings'
+Starting development server at http://210.179.54.69:8000/
+Quit the server with CONTROL-C.
+[13/Jul/2021 02:47:29] "GET / HTTP/1.1" 200 484
+Not Found: /{$ static
+[13/Jul/2021 02:47:30] "GET /%7B$%20static HTTP/1.1" 404 2076
+[13/Jul/2021 02:47:30] "GET /static/js/jquery.min.js HTTP/1.1" 200 97362
+[13/Jul/2021 02:47:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 36868
+Not Found: /favicon.ico
+[13/Jul/2021 02:47:30] "GET /favicon.ico HTTP/1.1" 404 2078

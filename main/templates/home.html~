@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Bootstrap Example</title>      
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="{$ static "css/bootstrap.min.css" %}">  
+</head>  
+<body>  
+<div class="container">  
+  <h1>First Web Page With Bootstrap</h1>  
+  <p>Hello World.</p>   
+</div>    
+  <script src="{% static "js/jquery.min.js" %}"></script>  
+  <script src="{% static "js/bootstrap.min.js" %}"></script>  
+</body>  
+</html>
